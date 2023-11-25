@@ -15,7 +15,7 @@ export default function FormApp() {
   console.log(errors);
 
   const submitForm = () => {
-    Axios.post('http://localhost:3000/api/create', {Name: Name, Sector: Sector, Agreement:Agreement})
+    Axios.post('http://localhost:3000/api/create', {Name: Name, Sector: Sector, Agreement: Agreement})
     }
   
   return (

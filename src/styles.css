@@ -13,7 +13,9 @@
   }
   
   .agreement{
-    padding: 10px 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 17px;
   }
   
   input, select {
